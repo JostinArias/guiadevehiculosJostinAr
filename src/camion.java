@@ -21,5 +21,8 @@ public class camion extends vehiculocarga {
         System.out.println("numero de ejes: "+ numEjes);
     }
 
-    
+    @Override
+    public void realizarMantenimiento() {
+        System.out.println("realizando mantenimiento al volvo: revisión de sistema de frenado, cambio de neumáticos, mantenimiento del motor.");
+    }
 }
