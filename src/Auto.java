@@ -19,5 +19,13 @@ public class Auto extends vehiculopasajero {
         super.mostrarInfo();
         System.out.println("tipo de conbustible: "+ tipoCombustible);
     }
+    @Override
+    public void realizarMantenimiento() {
+        System.out.println("realizando mantenimiento del nissan.");
+    }
     
+    public double calcularCostoMantenimiento(double costoPorKm, double kilometrosRecorridos) {
+        double costoTotal = costoPorKm * kilometrosRecorridos;
+        return costoTotal;
+    }
 }
