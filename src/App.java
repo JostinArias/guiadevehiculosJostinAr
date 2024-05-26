@@ -20,7 +20,7 @@ public class App {
         System.out.println("mantenimiento del camion ");
         camion.realizarMantenimiento();
 
-        
+        //profe se me había olvidado que había que ponerle QA a la rama se me fue el avión pero lo importante es que se entendió la idea
    
     }
 }
